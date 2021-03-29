@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		19E10DC326113F200027200C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E10DC226113F200027200C /* ContentView.swift */; };
 		19E10DC526113F230027200C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E10DC426113F230027200C /* Assets.xcassets */; };
 		19E10DC826113F230027200C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E10DC726113F230027200C /* Preview Assets.xcassets */; };
+		19E10DD226113F790027200C /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 19E10DD126113F790027200C /* Charts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E10DD226113F790027200C /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = "Financial App";
+			packageProductDependencies = (
+				19E10DD126113F790027200C /* Charts */,
+			);
 			productName = "Financial App";
 			productReference = 19E10DBD26113F200027200C /* Financial App.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +117,9 @@
 				Base,
 			);
 			mainGroup = 19E10DB426113F200027200C;
+			packageReferences = (
+				19E10DD026113F790027200C /* XCRemoteSwiftPackageReference "swiftui-charts" */,
+			);
 			productRefGroup = 19E10DBE26113F200027200C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,6 +334,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19E10DD026113F790027200C /* XCRemoteSwiftPackageReference "swiftui-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19E10DD126113F790027200C /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19E10DD026113F790027200C /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 19E10DB526113F200027200C /* Project object */;
 }
