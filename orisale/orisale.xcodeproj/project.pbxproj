@@ -11,6 +11,11 @@
 		19306CA1265B2EDA00518C4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19306CA0265B2EDA00518C4B /* ContentView.swift */; };
 		19306CA3265B2EDC00518C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19306CA2265B2EDC00518C4B /* Assets.xcassets */; };
 		19306CA6265B2EDC00518C4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19306CA5265B2EDC00518C4B /* Preview Assets.xcassets */; };
+		19306CB0265B2FD500518C4B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19306CAD265B2FD400518C4B /* Poppins-Regular.ttf */; };
+		19306CB1265B2FD500518C4B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19306CAE265B2FD500518C4B /* Poppins-Black.ttf */; };
+		19306CB2265B2FD500518C4B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19306CAF265B2FD500518C4B /* Poppins-Bold.ttf */; };
+		19306CB4265B398100518C4B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19306CB3265B398100518C4B /* WelcomeView.swift */; };
+		19306CB6265B506A00518C4B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19306CB5265B506A00518C4B /* Poppins-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		19306CA2265B2EDC00518C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19306CA5265B2EDC00518C4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19306CA7265B2EDC00518C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19306CAD265B2FD400518C4B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		19306CAE265B2FD500518C4B /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		19306CAF265B2FD500518C4B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		19306CB3265B398100518C4B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		19306CB5265B506A00518C4B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,12 @@
 			children = (
 				19306C9E265B2EDA00518C4B /* orisaleApp.swift */,
 				19306CA0265B2EDA00518C4B /* ContentView.swift */,
+				19306CB3265B398100518C4B /* WelcomeView.swift */,
 				19306CA2265B2EDC00518C4B /* Assets.xcassets */,
+				19306CAE265B2FD500518C4B /* Poppins-Black.ttf */,
+				19306CAF265B2FD500518C4B /* Poppins-Bold.ttf */,
+				19306CB5265B506A00518C4B /* Poppins-Medium.ttf */,
+				19306CAD265B2FD400518C4B /* Poppins-Regular.ttf */,
 				19306CA7265B2EDC00518C4B /* Info.plist */,
 				19306CA4265B2EDC00518C4B /* Preview Content */,
 			);
@@ -126,6 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19306CB1265B2FD500518C4B /* Poppins-Black.ttf in Resources */,
+				19306CB0265B2FD500518C4B /* Poppins-Regular.ttf in Resources */,
+				19306CB2265B2FD500518C4B /* Poppins-Bold.ttf in Resources */,
+				19306CB6265B506A00518C4B /* Poppins-Medium.ttf in Resources */,
 				19306CA6265B2EDC00518C4B /* Preview Assets.xcassets in Resources */,
 				19306CA3265B2EDC00518C4B /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19306CA1265B2EDA00518C4B /* ContentView.swift in Sources */,
+				19306CB4265B398100518C4B /* WelcomeView.swift in Sources */,
 				19306C9F265B2EDA00518C4B /* orisaleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

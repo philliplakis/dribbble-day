@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct orisaleApp: App {
+    @State var show = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if (show) {
+                ContentView()
+            } else {
+                WelcomeView(show: $show)
+            }
         }
     }
 }
